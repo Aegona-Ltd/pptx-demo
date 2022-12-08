@@ -1,0 +1,91 @@
+.pptx {
+    width: 100%;
+    background: #000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    .btn-download {
+        color: white;
+        border: 1px solid White;
+        padding: 4px 16px;
+        border-radius: 4px;
+        transition: all 1s;
+
+        &:hover {
+            background: white;
+            color: #000;
+            transition: all 1s;
+        }
+    }
+
+
+    .slide {
+        width: 1200px;
+        height: 600px;
+        background: white;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .content {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 12px;
+            padding-left: 50px;
+            font-size: 20px;
+
+            .title-wrapper {
+                min-height: 100px;
+
+                .ant-input {
+                    height: 75px;
+                    border-radius: 12px;
+                    width: 600px;
+                }
+            }
+
+            .title {
+                font-size: 50px;
+                font-weight: bold;
+                margin-bottom: 24px;
+                color: #8C92B9;
+            }
+
+            .list {
+                list-style: circle !important;
+                padding-left: 24px;
+            }
+
+            .content-wrapper {
+                margin-top: 20px;
+                min-height: 100px;
+                width: 90%;
+
+                textarea.ant-input {
+                    height: 100px;
+                    border-radius: 12px;
+
+                }
+            }
+
+        }
+
+        .image {
+            width: 30%;
+            height: 100%;
+            overflow: hidden;
+
+            img {
+                object-fit: cover;
+
+            }
+        }
+    }
+
+}

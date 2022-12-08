@@ -1,0 +1,46 @@
+{
+  "name": "panasonic_treemap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd -f .env next dev -p 3100",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.8",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@react-google-maps/api": "^2.13.1",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@types/googlemaps": "^3.43.3",
+    "@types/styled-components": "^5.1.26",
+    "antd": "^4.23.4",
+    "autoprefixer": "^10.4.12",
+    "axios": "^1.0.0",
+    "env-cmd": "^10.1.0",
+    "next": "12.3.1",
+    "postcss": "^8.4.17",
+    "pptxgenjs": "^3.11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.2",
+    "react-redux": "^8.0.4",
+    "react-svg-map": "^2.2.0",
+    "react-toastify": "^9.0.8",
+    "redux-saga": "^1.2.1",
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.6",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.2",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
+  }
+}

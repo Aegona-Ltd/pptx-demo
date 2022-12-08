@@ -1,0 +1,15 @@
+.tiens-header {
+  &__logo {
+    .tiens-logo {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__login {
+    .login-btn {
+      &--blue {
+        background: $blueGradient;
+      }
+    }
+  }
+}

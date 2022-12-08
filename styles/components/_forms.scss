@@ -1,0 +1,67 @@
+.tiens-form {
+  overflow: hidden;
+
+  .ant-form {
+    &-item {
+      margin-bottom: 16px;
+    }
+  }
+
+  &-title {
+    &--required {
+      &:after {
+        content: '*';
+        display: inline-block;
+        color: $redDC;
+        margin-left: 4px;
+      }
+    }
+  }
+
+  &-input {
+    height: 40px;
+  }
+
+  &-textarea,
+  &-input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid $whiteFF;
+    padding: 8px 16px;
+    color: gray;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &-submit {
+    height: 43px;
+
+    padding: 0 16px;
+    text-align: center;
+    background-color: #CDBFD6;
+    border-radius: 100px;
+    color: $whiteFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      opacity: 0.8;
+    }
+  }
+
+  &-modal {
+    border: 1px solid $black4C;
+  }
+
+  .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+  .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover {
+    background: transparent !important;
+    border-color: #ff4d4f;
+  }
+}

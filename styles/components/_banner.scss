@@ -1,0 +1,38 @@
+.tiens-banner {
+  &__wrapper {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &__introduce {
+    top: 49%;
+    transform: translate(0, -49%);
+
+    @media screen and (max-width: 640px) {
+      top: 32%;
+      transform: translate(0, -32%);
+    }
+  }
+}
+
+.tiens-banner-video {
+  background: linear-gradient(90deg, #D9C1FF 0.03%, #A168FF 100%);
+}
+
+.tiens-banner-default {
+  &--blue {
+    background: linear-gradient(90deg, rgba(213, 193, 255, 0.57) 0.03%, #9672D0 100%);
+  }
+
+  &--brown {
+    background: linear-gradient(180deg, #BD95FF 0%, #9375C4 49.24%, #825FBB 100%);
+  }
+
+  &__image {
+    background-image: url('/images/img-banner-homepage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
